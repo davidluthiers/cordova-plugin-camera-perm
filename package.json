@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-camera-perm",
+  "name": "cordova-plugin-camera",
   "version": "7.0.1-dev",
   "description": "Cordova Camera Plugin",
   "types": "./types/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache/cordova-plugin-camera.git"
+    "url": "git+https://github.com/davidluthiers/cordova-plugin-camera-perm.git"
   },
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-camera/issues"
