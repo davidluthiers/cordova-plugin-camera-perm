@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-camera",
+  "name": "cordova-plugin-camera-perm",
   "version": "7.0.1-dev",
   "description": "Cordova Camera Plugin",
   "types": "./types/index.d.ts",
@@ -11,8 +11,13 @@
       "browser"
     ]
   },
-  "repository": "github:apache/cordova-plugin-camera",
-  "bugs": "https://github.com/apache/cordova-plugin-camera/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-camera.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-camera/issues"
+  },
   "keywords": [
     "cordova",
     "camera",
@@ -63,5 +68,10 @@
   },
   "devDependencies": {
     "@cordova/eslint-config": "^5.0.0"
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-camera#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
   }
 }
