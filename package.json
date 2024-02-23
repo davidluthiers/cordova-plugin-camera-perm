@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidluthiers/cordova-plugin-camera-perm.git"
+    "url": "git+https://github.com/davidluthiers/cordova-plugin-camera-perm"
   },
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-camera/issues"
